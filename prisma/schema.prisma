@@ -98,7 +98,7 @@ model JourneyRoute {
 }
 
 /// @@allow('all', true)
-model Subscri is ption {
+model Subscription {
   id               String   @id() @default(uuid())
   notificationType String
   userId           String
